@@ -2,7 +2,7 @@ import streamlit as st
 from urllib.parse import quote
 
 st.set_page_config(page_title="Mother's Spice | Gujarati Heritage",page_icon="🥭",layout="wide")
-st.markdown("""<style>.stApp{background:#f7eedc} h1,h2,h3{color:#314b36!important} .hero{background:#314b36;color:#fff;padding:3rem;border-radius:24px}.hero h1{color:#fff!important}.tile{background:white;border:1px solid #e8ddc6;border-radius:18px;padding:24px;margin:12px 0}</style>""",unsafe_allow_html=True)
+st.markdown("""<style>.stApp{background:#FAF7F0} h1,h2,h3{color:#244332!important} .hero{background:#244332;color:#fff;padding:3rem;border-radius:24px}.hero h1{color:#fff!important}.tile{background:white;border:1px solid #E3DCCF;border-radius:18px;padding:24px;margin:12px 0} .stApp p,.stApp label,.stApp .stCaption{color:#25352C} section[data-testid="stSidebar"] p,section[data-testid="stSidebar"] label,section[data-testid="stSidebar"] h1,section[data-testid="stSidebar"] span{color:#FFFFFF!important} .tile h2,.tile h3,.tile p{color:#25352C!important} .hero p{color:#FFFFFF!important} .hero h1{color:#FFFFFF!important} .stButton button,.stLinkButton a{font-weight:600} </style>""",unsafe_allow_html=True)
 PRODUCTS = [
 ("🌿","Traditional Methi Masala","Classic fragrant Gujarati fenugreek spice blend"),
 ("🥭","Raw Mango & Gunda Pickle","Tangy, spicy raw mango and gunda"),
